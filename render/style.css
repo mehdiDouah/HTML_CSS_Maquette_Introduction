@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: droid-serif;
-    src: url("font/droidSerif/DroidSerif-Italic.ttf");
+    src: url("font/droidSerif/DroidSerif-Regular.ttf");
 }
 
 body {
@@ -97,6 +97,7 @@ header {
 }
 
 article h2 {
+    font-family: droid-serif;
     text-transform: uppercase;
     color: #e77927;
 }
