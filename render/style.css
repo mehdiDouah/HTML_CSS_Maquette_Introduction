@@ -1,0 +1,218 @@
+@font-face {
+    font-family: oswald;
+    src: url("font/oswald/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: droid;
+    src: url("font/droid/DroidSans.tff");
+}
+
+@font-face {
+    font-family: droid-serif;
+    src: url("font/droidSerif/DroidSerif-Italic.ttf");
+}
+
+body {
+    position: relative;
+    background-color: white;
+    font-family: oswald;
+    color: #898898;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    background-image: url("misc/grille.png");
+    text-align: center;
+    padding-bottom: 48px;
+    padding-top: 12px;
+    margin-bottom: 46px;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+}
+
+.abc_logo {
+    position: relative;
+    display: inline-block;
+    margin-right: 149px;
+}
+
+.menu_header {
+    display: inline-block;
+    position: relative;
+}
+
+.menu_header ul {
+    padding-left: 0px;
+    text-align: left;
+    margin-right: 24px;
+}
+
+.menu_header_ul {
+    display: inline-block;
+}
+
+.menu_header_ul h2 {
+    text-transform: uppercase;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.welcom-container {
+    background-image: url("misc/grille.png");
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-style: italic;
+    text-align: center;
+}
+
+#h2_hotels {
+    border-bottom: 5px solid #f76900;
+}
+
+#h2_restaurant {
+    border-bottom: 5px solid #fcd04a;
+}
+
+#h2_services {
+    border-bottom: 5px solid #b9d482;
+}
+
+#h2_activites {
+    border-bottom: 5px solid #3d92c2;
+}
+
+#h2_header {
+    border-bottom: 5px solid #c078d0;
+}
+
+article h2 {
+    text-transform: uppercase;
+    color: #e77927;
+}
+
+.italic {
+    font-style: italic;
+}
+
+article {
+    display: inline-block;
+    width: 218px;
+    padding: 13px;
+    text-align: left;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.body-container {
+    vertical-align: top;
+}
+
+.left-side {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.midle-side {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+#commentaires {
+    width: 300px;
+}
+
+.right-side {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+
+.line-top {
+    display: inline;
+}
+
+.line-bottom {
+    display: inline;
+}
+
+#article-golf {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    bottom: 120px;
+}
+
+footer {
+}
+
+.section-container {
+    position: relative;
+    margin: 0px;
+    vertical-align: top;
+    horizontal-align: top;
+    background-image: url("misc/grille.png");
+}
+
+.section-container h2 {
+    color: #898898;
+    font-size: 20px;
+}
+
+.footer-article {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    vertical-align: top;
+    text-align: left;
+    margin: 12px;
+}
+
+li {
+    vertical-align: top;
+}
+
+a:hover, a {
+    color: #898898;
+}
+
+.logos li {
+    display: inline;
+}
+
+.inline li {
+    display: inline;
+}
+
+.inline a {
+    text-decoration: none;
+}
+
+.footer-footer {
+}
+
+.footer-footer_left {
+    display: inline-block;
+    margin: 12px;
+    margin-right: 235px;
+}
+
+.footer-footer_right {
+    display: inline-block;
+}
